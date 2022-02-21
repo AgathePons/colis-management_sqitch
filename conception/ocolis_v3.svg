@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="394" height="272" view_box="0 0 394 272"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Mon, 21 Feb 2022 01:33:30</desc>
+
+<rect id="frame" x="0" y="0" width="394" height="272" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association envoie -->
+<line x1="69" y1="111" x2="189" y2="111" stroke="#74add1" stroke-width="2"/>
+<text x="134" y="103.0" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<line x1="317" y1="111" x2="189" y2="111" stroke="#74add1" stroke-width="2"/>
+<text x="223" y="103.0" fill="#d73027" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-envoie">
+	<path d="M 203 86 a 14 14 90 0 1 14 14 V 111 h -56 V 100 a 14 14 90 0 1 14 -14" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+	<path d="M 217 111.0 v 11 a 14 14 90 0 1 -14 14 H 175 a 14 14 90 0 1 -14 -14 V 111.0 H 56" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+	<rect x="161" y="86" width="56" height="50" fill="none" rx="14" stroke="#74add1" stroke-width="2"/>
+	<line x1="161" y1="111" x2="217" y2="111" stroke="#74add1" stroke-width="1"/>
+	<text x="168" y="103.7" fill="#000000" font-family="Verdana" font-size="12">envoie</text>
+</g>
+
+<!-- Association reçoit -->
+<line x1="69" y1="111" x2="189" y2="238" stroke="#74add1" stroke-width="2"/>
+<text x="134" y="173.287715647" fill="#d73027" font-family="Verdana" font-size="12">0,N</text>
+<line x1="317" y1="111" x2="189" y2="238" stroke="#74add1" stroke-width="2"/>
+<text x="223" y="177.500534991" fill="#d73027" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-reçoit">
+	<path d="M 200 213 a 14 14 90 0 1 14 14 V 238 h -50 V 227 a 14 14 90 0 1 14 -14" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+	<path d="M 214 238.0 v 11 a 14 14 90 0 1 -14 14 H 178 a 14 14 90 0 1 -14 -14 V 238.0 H 50" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+	<rect x="164" y="213" width="50" height="50" fill="none" rx="14" stroke="#74add1" stroke-width="2"/>
+	<line x1="164" y1="238" x2="214" y2="238" stroke="#74add1" stroke-width="1"/>
+	<text x="171" y="230.7" fill="#000000" font-family="Verdana" font-size="12">reçoit</text>
+</g>
+
+<!-- Entity ADRESSE -->
+<g id="entity-ADRESSE">
+	<g id="frame-ADRESSE">
+		<rect x="9" y="43" width="120" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="9" y="68.0" width="120" height="111" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+		<rect x="9" y="43" width="120" height="136" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="9" y1="68" x2="129" y2="68" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="40" y="60.7" fill="#000000" font-family="Verdana" font-size="12">ADRESSE</text>
+	<text x="14" y="85.7" fill="#000000" font-family="Verdana" font-size="12">référence interne</text>
+	<line x1="14" y1="88" x2="119" y2="88" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="102.7" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="119.8" fill="#000000" font-family="Verdana" font-size="12">adresse principale</text>
+	<text x="14" y="136.8" fill="#000000" font-family="Verdana" font-size="12">complément</text>
+	<text x="14" y="153.8" fill="#000000" font-family="Verdana" font-size="12">code postal</text>
+	<text x="14" y="170.8" fill="#000000" font-family="Verdana" font-size="12">ville</text>
+</g>
+
+<!-- Entity COLIS -->
+<g id="entity-COLIS">
+	<g id="frame-COLIS">
+		<rect x="249" y="9" width="136" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="249" y="34.0" width="136" height="179" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+		<rect x="249" y="9" width="136" height="204" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="249" y1="34" x2="385" y2="34" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="297" y="26.7" fill="#000000" font-family="Verdana" font-size="12">COLIS</text>
+	<text x="254" y="51.7" fill="#000000" font-family="Verdana" font-size="12">numéro interne</text>
+	<line x1="254" y1="54" x2="348" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="254" y="68.7" fill="#000000" font-family="Verdana" font-size="12">contenu</text>
+	<text x="254" y="85.7" fill="#000000" font-family="Verdana" font-size="12">poids</text>
+	<text x="254" y="102.7" fill="#000000" font-family="Verdana" font-size="12">largeur</text>
+	<text x="254" y="119.8" fill="#000000" font-family="Verdana" font-size="12">hauteur</text>
+	<text x="254" y="136.8" fill="#000000" font-family="Verdana" font-size="12">profondeur</text>
+	<text x="254" y="153.8" fill="#000000" font-family="Verdana" font-size="12">valeur estimée</text>
+	<text x="254" y="170.8" fill="#000000" font-family="Verdana" font-size="12">date prise en charge</text>
+	<text x="254" y="187.8" fill="#000000" font-family="Verdana" font-size="12">date expedition</text>
+	<text x="254" y="204.8" fill="#000000" font-family="Verdana" font-size="12">date livraison</text>
+</g>
+</svg>

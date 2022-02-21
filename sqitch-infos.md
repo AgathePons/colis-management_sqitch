@@ -1,5 +1,11 @@
 # Tips sur Sqitch
 
+## Init sqitch with good options
+
+```
+sqitch init nom_projet --engine pg --target db:pg:ma_bdd --top-dir migrations
+```
+
 ## Logs
 
 pour enregistrer la sortie d'une cmd de terminal :

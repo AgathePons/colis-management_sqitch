@@ -1,9 +1,0 @@
-BEGIN;
-
-ALTER TABLE package
-  RENAME COLUMN volume TO height;
-ALTER TABLE package
-  ADD COLUMN width int NOT NULL DEFAULT 1,
-  ADD COLUMN depth int NOT NULL DEFAULT 1;
-
-COMMIT;

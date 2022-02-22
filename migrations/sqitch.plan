@@ -3,3 +3,4 @@
 
 transition 2022-02-22T08:42:45Z AgathePons <student@teleporter> # from existant
 expedition 2022-02-22T08:44:32Z AgathePons <student@teleporter> # add expedition table
+constraints 2022-02-22T10:30:05Z AgathePons <student@teleporter> # add integrity constraints

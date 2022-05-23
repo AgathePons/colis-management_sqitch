@@ -2,7 +2,7 @@
 
 ## Init sqitch with good options
 
-```
+```cmd
 sqitch init nom_projet --engine pg --target db:pg:ma_bdd --top-dir migrations
 ```
 

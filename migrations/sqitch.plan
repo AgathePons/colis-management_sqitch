@@ -1,4 +1,9 @@
 %syntax-version=1.0.0
 %project=ocolis
 
-transition 2022-02-22T08:34:27Z AgathePons <student@teleporter> # from existing
+transition 2022-02-22T08:42:45Z AgathePons <student@teleporter> # from existant
+expedition 2022-02-22T08:44:32Z AgathePons <student@teleporter> # add expedition table
+constraints 2022-02-22T10:30:05Z AgathePons <student@teleporter> # add integrity constraints
+constraints_2 2022-02-22T18:36:08Z AgathePons <student@teleporter> # add domains for postal code and numberplate
+constraints_2bis 2022-02-23T08:52:37Z AgathePons <student@teleporter> # correction numberplate + postalcode
+

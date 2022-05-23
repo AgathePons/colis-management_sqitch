@@ -1,0 +1,8 @@
+[core]
+	engine = pg
+	# plan_file = sqitch.plan
+	top_dir = migrations # dans quel dossier on a tout mis
+[engine "pg"]
+	target = db:pg:ocolis-2 # sur quelle db on va pour éviter d'avoir à la préciser à chaque cmd
+	# registry = sqitch
+	# client = psql
